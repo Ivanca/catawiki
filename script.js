@@ -1,7 +1,6 @@
 const scrollableWrappers = document.querySelectorAll('.ScrollabeWrapper_scrollableWrapper__zBEaA');
 
 scrollableWrappers.forEach((elem) => {
-    console.log('ScrollableWrapper found');
     const flexBasis = 58.8235294118;
     const flexDiff = 81.82 - flexBasis;
     const paddingTop = 125;
